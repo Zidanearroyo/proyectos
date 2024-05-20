@@ -3,6 +3,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    background: rgb(0,24,255);
+    background: linear-gradient(90deg, rgba(0,24,255,1) 0%, rgba(0,255,236,1) 50%, rgba(0,5,255,1) 100%);
+}
 .form{
     width: 400px;
     background: #24303c;
@@ -12,10 +16,12 @@
     border-radius: 10px;
     font-family: calibri;
     color: white;
+    box-shadow: 7px 13px 37px #000;
 }
 .form h4{
-font-size: 22px;
+font-size: 28px;
 margin-bottom: 20px;
+text-align: center;
 }
 .inputs{
     width: 100%;
@@ -24,5 +30,16 @@ margin-bottom: 20px;
     border-radius: 5px;
     margin-bottom: 16px;
     font-family: calibri;
+    font-size: 18px;
+    color: white;
+}
+.buttons{
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    border-radius: 5px;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
     font-size: 18px;
 }
