@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <title>Proyecto Web1</title>
+</head>
+<body>
+    <form method="post" class="form">
+        <h4>FORMULARIO</h4>
+        <input class="inputs" type="text" name="nombre" placeholder="Nombre Completo">
+        <input class="inputs" type="email" name="correo" placeholder="Correo Electrónico">
+        <input class="inputs" type="number" name="celular" placeholder="Número de celular">
+        <input class="inputs" type="number" name="nocuenta" placeholder="Número de cuenta">
+        <input class="buttons" type="submit" name="registrar">
+    </form>
+    <?php
+    include("registrar.php")
+    ?>
+</body>
+</html>
