@@ -1,10 +1,10 @@
 <?php
 include("conexion.php");
 if(isset($_POST['registrar'])) {
-    if (strlen($_POST['nombre']) < 1 &&
-        strlen($_POST['correo']) < 1 &&
-        strlen($_POST['celular']) < 1 &&
-        strlen($_POST['nocuenta']) < 1 ) {
+    if (strlen($_POST['nombre']) >= 1 &&
+        strlen($_POST['correo']) >= 1 &&
+        strlen($_POST['celular']) >= 1 &&
+        strlen($_POST['nocuenta']) >= 1 ) {
             $nombre = trim($_POST['nombre']);
             $correo = trim($_POST['correo']);
             $celular = trim($_POST['celular']);

@@ -43,3 +43,17 @@ text-align: center;
     margin: 16px 0;
     font-size: 18px;
 }
+.good{
+    text-align: center;
+    width: 100%;
+    padding: 12px;
+    background-color: #1e6;
+    color: white;
+}
+.bad{
+    text-align: center;
+    width: 100%;
+    padding: 12px;
+    background-color: #a22;
+    color: white;
+}
